@@ -1,11 +1,8 @@
-from flask import Flask
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
-
-## This is just a sample to check if the conf is working.
+def index():
+    return render_template("index.html")
