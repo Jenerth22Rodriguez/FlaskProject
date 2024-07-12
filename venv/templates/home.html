@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+x<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -10,18 +10,24 @@
       <h1>Kentucky Watershed!!!</h1>
     </div>
     <div class="form-container">
-      <form>
+      <form id="loginForm">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Submit</button>
+        <button type="submit">Login</button>
       </form>
     </div>
+    <script>
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          window.location.href = "/calculator";
+        });
+    </script>
   </body>
 </html>

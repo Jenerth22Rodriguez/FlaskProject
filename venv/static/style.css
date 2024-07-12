@@ -22,10 +22,10 @@ body {
 }
 
 .form-container {
-  background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background */
-  padding: 20px;                         /* Adds padding */
-  border-radius: 10px;                   /* Rounds the corners */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for depth */
+  background-color: rgba(0, 0, 0, 0.6);  
+  padding: 20px;                        
+  border-radius: 10px;                  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 form {
